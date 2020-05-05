@@ -1,0 +1,83 @@
+body{
+    background-color: gainsboro;
+    font-family: monospace;
+    width: 100%;
+}
+header{
+    font-size:2em;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkslategrey;
+    text-align: center;
+    background-color: darkgray;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-top: 5%;
+    grid-gap: 5px;
+
+}
+
+p{
+    text-align: center;
+}
+img{
+    width: 95%;
+}
+button{
+    background-color: dimgrey;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+@media only screen and (min-width: 768px) {
+header{
+font-size: 3em}
+
+img{
+    width: 100%;
+    display: block;
+}
+p{font-size: 2em;
+    width: 95%;
+
+}
+.grid-container{
+    margin: 20px;
+    grid-template-columns: 33% 33% 33%;
+}
+
+button{
+    font-size: 2em;
+}
+
+#grid-item1:hover{
+     background-color: darkslategrey;
+     color: white;
+ }
+    #grid-item2:hover{
+        background-color: darkslategrey;
+        color: white;
+    }
+    #grid-item3:hover{
+        background-color: darkslategrey;
+        color: white;
+    }
+    #grid-item4:hover{
+        background-color: darkslategrey;
+        color: white;
+    }
+    #grid-item5:hover{
+        background-color: darkslategrey;
+        color: white;
+    }
+    #grid-item6:hover{
+        background-color: darkslategrey;
+        color: white;
+    }
+
+}
+
